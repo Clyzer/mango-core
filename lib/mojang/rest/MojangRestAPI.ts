@@ -60,7 +60,7 @@ export class MojangRestAPI {
     private static readonly TIMEOUT = 2500
 
     public static readonly AUTH_ENDPOINT = 'https://authserver.mojang.com'
-    public static readonly STATUS_ENDPOINT = 'https://raw.githubusercontent.com/AventiumSoftworks/helios-status-page/master/history/summary.json'
+    public static readonly STATUS_ENDPOINT = 'https://raw.githubusercontent.com/Clyzer/mangos-status-page/master/history/summary.json'
 
     private static authClient = got.extend({
         prefixUrl: MojangRestAPI.AUTH_ENDPOINT,
