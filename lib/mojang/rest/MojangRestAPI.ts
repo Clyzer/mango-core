@@ -83,9 +83,9 @@ export class MojangRestAPI {
     public static getDefaultStatuses(): MojangStatus[] {
         return [
             {
-                service: 'mojang-multiplayer-session-service',
+                service: 'servicio-multijugador-de-mojang',
                 status: MojangStatusColor.GREY,
-                name: 'Multiplayer Session Service',
+                name: 'Servicio multijugador de Mojang',
                 essential: true
             },
             {
@@ -95,45 +95,45 @@ export class MojangRestAPI {
                 essential: false
             },
             {
-                service: 'mojang-s-public-api',
+                service: 'api-publica-de-mojang',
                 status: MojangStatusColor.GREY,
-                name: 'Public API',
+                name: 'API pública de Mojang',
                 essential: false
             },
             {
-                service: 'mojang-accounts-website',
+                service: 'sitio-web-de-cuentas-de-mojang',
                 status: MojangStatusColor.GREY,
-                name: 'Mojang Accounts Website',
+                name: 'Sitio web de cuentas de Mojang',
                 essential: false
             },
             {
-                service: 'microsoft-o-auth-server',
+                service: 'servidor-microsoft-o-auth',
                 status: MojangStatusColor.GREY,
-                name: 'Microsoft OAuth Server',
+                name: 'Servidor Microsoft OAuth',
                 essential: true
             },
             {
-                service: 'xbox-live-auth-server',
+                service: 'servidor-de-autenticacion-de-xbox-live',
                 status: MojangStatusColor.GREY,
-                name: 'Xbox Live Auth Server',
+                name: 'Servidor de autenticación de Xbox Live',
                 essential: true
             },
             {
-                service: 'xbox-live-gatekeeper', // Server used to give XTokens
+                service: 'control-de-acceso-a-xbox-live', // Server used to give XTokens
                 status: MojangStatusColor.GREY,
-                name: 'Xbox Live Gatekeeper',
+                name: 'Control de acceso a Xbox Live',
                 essential: true
             },
             {
                 service: 'microsoft-minecraft-api',
                 status: MojangStatusColor.GREY,
-                name: 'Minecraft API for Microsoft Accounts',
+                name: 'API de Minecraft para cuentas de Microsoft',
                 essential: true
             },
             {
-                service: 'microsoft-minecraft-profile',
+                service: 'perfil-de-microsoft-minecraft',
                 status: MojangStatusColor.GREY,
-                name: 'Minecraft Profile for Microsoft Accounts',
+                name: 'Perfil de Minecraft para cuentas de Microsoft',
                 essential: false
             }
         ]

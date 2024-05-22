@@ -1,12 +1,12 @@
-# Helios-Core
+# Mongos-Core
 
-A library containing core mechanisms for Helios Launcher
+A library containing core mechanisms for Mongos Launcher
 
 ### Requirements
 
 * Node.js 20 (minimum)
 
-helios-core will always use the same minimum node version as Helios Launcher.
+mongos-core will always use the same minimum node version as Mongos Launcher.
 
 ## Auth
 

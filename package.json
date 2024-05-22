@@ -1,7 +1,7 @@
 {
-  "name": "helios-core",
-  "version": "2.2.1",
-  "description": "A library containing core mechanisms for Helios Launcher",
+  "name": "mongos-core",
+  "version": "2.2.3",
+  "description": "A library containing core mechanisms for Mongo Launcher",
   "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -44,19 +44,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/helios-core.git"
+    "url": "git+https://github.com/clyzer/mongos-core.git"
   },
   "keywords": [
-    "helios-launcher",
-    "helios-core",
+    "mongos-launcher",
+    "mongos-core",
     "minecraft-launcher"
   ],
-  "author": "Daniel Scalzi",
+  "author": "Diego Sánchez",
   "license": " LGPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/dscalzi/helios-core/issues"
+    "url": "https://github.com/clyzer/mongos-core/issues"
   },
-  "homepage": "https://github.com/dscalzi/helios-core#readme",
+  "homepage": "https://github.com/clyzer/mongos-core#readme",
   "devDependencies": {
     "@types/chai": "^4.3.14",
     "@types/chai-as-promised": "^7.1.8",
